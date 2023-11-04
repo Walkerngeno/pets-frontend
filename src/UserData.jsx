@@ -8,7 +8,7 @@ const UserData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://pets-backend-nlog.onrender.com/users');
+        const response = await axios.get('https://pets-backend-qbbh.onrender.com/users');
         console.log('API Response:', response.data);
         if (Array.isArray(response.data.users)) {
           setUsers(response.data.users);
