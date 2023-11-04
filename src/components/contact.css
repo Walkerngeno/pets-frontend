@@ -1,0 +1,65 @@
+/* contact.css */
+
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .form-container label,
+  .form-container input,
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .form-container textarea {
+    height: 150px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-links {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .social-links h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-links ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .social-links ul li a:hover {
+    text-decoration: underline;
+  }
