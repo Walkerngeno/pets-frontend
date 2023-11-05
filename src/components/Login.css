@@ -1,5 +1,7 @@
 /* Login.css */
-
+body{
+    background-color: aqua;
+}
 .login-container {
     max-width: 400px;
     margin: 0 auto;
