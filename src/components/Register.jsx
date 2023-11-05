@@ -105,6 +105,17 @@ const Register = () => {
         </div>
         <button type="submit">Register</button>
       </form>
+      <ul>
+            <li>
+              Username must be 5 characters and above
+              </li>
+            <li>
+              Email must be valid
+              </li>
+            <li>
+              Password must contain, Upercase, Lowercase, Numbers & special characters
+            </li>
+          </ul>
     </div>
   );
 };
